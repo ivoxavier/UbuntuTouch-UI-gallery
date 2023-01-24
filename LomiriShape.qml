@@ -1,5 +1,7 @@
 /*
- * Copyright 2015 Canonical Ltd.
+ * Copyright 2013 Canonical Ltd.
+ *
+ * Copyright 2023 Ivo Xavier
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -14,26 +16,26 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import QtQuick 2.4
-import Ubuntu.Components 1.3
+import QtQuick 2.9
+import Lomiri.Components 1.3
 
 Template {
-    objectName: "ubuntuShapesTemplate"
+    objectName: "lomiriShapesTemplate"
 
     TemplateSection {
-        title: "Ubuntu Shape"
-        className: "UbuntuShape"
+        title: "Lomiri Shape"
+        className: "LomiriShape"
 
         TemplateRow {
             title: i18n.tr("Aspect")
             titleWidth: units.gu(8)
             height: units.gu(8)
 
-            UbuntuShape {
-                objectName: "ubuntushape_aspect_inset"
-                backgroundColor: UbuntuColors.orange
+            LomiriShape {
+                objectName: "lomirishape_aspect_inset"
+                backgroundColor: LomiriColors.orange
                 radius: "medium"
-                aspect: UbuntuShape.Inset
+                aspect: LomiriShape.Inset
                 Label {
                     anchors.centerIn: parent
                     text: "Inset"
@@ -42,11 +44,11 @@ Template {
                 }
             }
 
-            UbuntuShape {
-                objectName: "ubuntushape_aspect_dropshadow"
-                backgroundColor: UbuntuColors.orange
+            LomiriShape {
+                objectName: "lomirishape_aspect_dropshadow"
+                backgroundColor: LomiriColors.orange
                 radius: "medium"
-                aspect: UbuntuShape.DropShadow
+                aspect: LomiriShape.DropShadow
                 Label {
                     anchors.centerIn: parent
                     text: "DropShadow"
@@ -55,11 +57,11 @@ Template {
                 }
             }
 
-            UbuntuShape {
-                objectName: "ubuntushape_aspect_flat"
-                backgroundColor: UbuntuColors.orange
+            LomiriShape {
+                objectName: "lomirishape_aspect_flat"
+                backgroundColor: LomiriColors.orange
                 radius: "medium"
-                aspect: UbuntuShape.Flat
+                aspect: LomiriShape.Flat
                 Label {
                     anchors.centerIn: parent
                     text: "Flat"
@@ -74,8 +76,8 @@ Template {
             titleWidth: units.gu(8)
             height: units.gu(8)
 
-            UbuntuShape {
-                objectName: "ubuntushape_radius_small"
+            LomiriShape {
+                objectName: "lomirishape_radius_small"
                 backgroundColor: theme.palette.normal.foreground
                 radius: "small"
                 Label {
@@ -86,8 +88,8 @@ Template {
                 }
             }
 
-            UbuntuShape {
-                objectName: "ubuntushape_radius_medium"
+            LomiriShape {
+                objectName: "lomirishape_radius_medium"
                 backgroundColor: theme.palette.normal.foreground
                 radius: "medium"
                 Label {
@@ -98,8 +100,8 @@ Template {
                 }
             }
 
-            UbuntuShape {
-                objectName: "ubuntushape_radius_medium"
+            LomiriShape {
+                objectName: "lomirishape_radius_medium"
                 backgroundColor: theme.palette.normal.foreground
                 radius: "large"
                 Label {
@@ -116,17 +118,17 @@ Template {
             titleWidth: units.gu(8)
             height: units.gu(8)
 
-            UbuntuShape {
-                objectName: "ubuntushape_preserveaspectcrop"
+            LomiriShape {
+                objectName: "lomirishape_preserveaspectcrop"
                 source: Image { source: "map_icon.png" }
-                sourceFillMode: UbuntuShape.PreserveAspectCrop
+                sourceFillMode: LomiriShape.PreserveAspectCrop
             }
 
-            UbuntuShape {
-                objectName: "ubuntushape_pad"
-                backgroundColor: UbuntuColors.warmGrey
+            LomiriShape {
+                objectName: "lomirishape_pad"
+                backgroundColor: LomiriColors.warmGrey
                 source: Image { source: "images.png" }
-                sourceFillMode: UbuntuShape.Pad
+                sourceFillMode: LomiriShape.Pad
             }
         }
 
@@ -135,13 +137,13 @@ Template {
             titleWidth: units.gu(8)
             height: units.gu(8)
 
-            UbuntuShape {
-                objectName: "ubuntushape_verticalgradient"
-                backgroundColor: UbuntuColors.lightAubergine
+            LomiriShape {
+                objectName: "lomirishape_verticalgradient"
+                backgroundColor: LomiriColors.lightAubergine
                 secondaryBackgroundColor: Qt.rgba(
-                    UbuntuColors.lightAubergine.r, UbuntuColors.lightAubergine.g,
-                    UbuntuColors.lightAubergine.b, 0.25)
-                backgroundMode: UbuntuShape.VerticalGradient
+                    LomiriColors.lightAubergine.r, LomiriColors.lightAubergine.g,
+                    LomiriColors.lightAubergine.b, 0.25)
+                backgroundMode: LomiriShape.VerticalGradient
             }
         }
     }

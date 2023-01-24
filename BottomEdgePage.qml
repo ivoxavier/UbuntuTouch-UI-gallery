@@ -1,6 +1,8 @@
 /*
  * Copyright 2015 Canonical Ltd.
  *
+ * Copyright 2023 Ivo Xavier
+ *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation; version 3.
@@ -14,8 +16,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import QtQuick 2.4
-import Ubuntu.Components 1.3
+import QtQuick 2.9
+import Lomiri.Components 1.3
 
 Template {
     id: page
@@ -150,14 +152,14 @@ Template {
                 objectName: "CustomRegion1"
                 enabled: regionConfig.model >= 1
                 to: 0.3
-                property color baseColor: UbuntuColors.silk
+                property color baseColor: LomiriColors.silk
                 contentComponent: Rectangle {
                     PageHeader {
                         title: i18n.tr("CustomRegion #1")
                     }
                     width: bottomEdge.width - units.gu(10)
                     height: bottomEdge.height
-                    color: UbuntuColors.blue
+                    color: LomiriColors.blue
                 }
             },
             BottomEdgeRegion {
@@ -171,7 +173,7 @@ Template {
                     }
                     width: bottomEdge.width - units.gu(30)
                     height: bottomEdge.height
-                    color: UbuntuColors.red
+                    color: LomiriColors.red
                 }
             },
             BottomEdgeRegion {

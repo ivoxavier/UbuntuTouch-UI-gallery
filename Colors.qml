@@ -1,6 +1,8 @@
 /*
  * Copyright 2014 Canonical Ltd.
  *
+ * Copyright 2023 Ivo Xavier
+ *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation; version 3.
@@ -14,8 +16,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import QtQuick 2.4
-import Ubuntu.Components 1.3
+import QtQuick 2.9
+import Lomiri.Components 1.3
 import QtQml.Models 2.1
 
 Template {
@@ -100,7 +102,7 @@ Template {
                                 Rectangle {
                                     width: paletteColor.width + (previewed ? units.gu(26) : 0)
                                     height: paletteColor.height + (previewed ? units.gu(2.5) : 0)
-                                    Behavior on height { UbuntuNumberAnimation {duration: UbuntuAnimation.SnapDuration} }
+                                    Behavior on height { LomiriNumberAnimation {duration: LomiriAnimation.SnapDuration} }
                                     color: theme.palette.normal.background
                                     parent: previewed ? colorsTemplate : paletteColor
                                     x: Math.max(0, paletteColor.mapToItem(parent, 0, 0).x + (previewed ? (paletteColor.width-width)/2 : 0))
@@ -143,81 +145,81 @@ Template {
     }
 
     TemplateSection {
-        title: "UbuntuColors"
-        className: "UbuntuColors"
+        title: "LomiriColors"
+        className: "LomiriColors"
 
         // Except orange, none of the colors from UbuntuComponents 1.0
         // are included because they may be deprecated soon.
         TemplateRow {
             title: i18n.tr("Orange")
-            UbuntuShape {
-                backgroundColor: UbuntuColors.orange
+            LomiriShape {
+                backgroundColor: LomiriColors.orange
             }
         }
         TemplateRow {
             title: i18n.tr("Porcelain")
-            UbuntuShape {
-                backgroundColor: UbuntuColors.porcelain
+            LomiriShape {
+                backgroundColor: LomiriColors.porcelain
             }
         }
         TemplateRow {
             title: i18n.tr("Silk")
-            UbuntuShape {
-                backgroundColor: UbuntuColors.silk
+            LomiriShape {
+                backgroundColor: LomiriColors.silk
             }
         }
         TemplateRow {
             title: i18n.tr("Ash")
-            UbuntuShape {
-                backgroundColor: UbuntuColors.ash
+            LomiriShape {
+                backgroundColor: LomiriColors.ash
             }
         }
         TemplateRow {
             title: i18n.tr("Graphite")
-            UbuntuShape {
-                backgroundColor: UbuntuColors.graphite
+            LomiriShape {
+                backgroundColor: LomiriColors.graphite
             }
         }
         TemplateRow {
             title: i18n.tr("Slate")
-            UbuntuShape {
-                backgroundColor: UbuntuColors.slate
+            LomiriShape {
+                backgroundColor: LomiriColors.slate
             }
         }
         TemplateRow {
             title: i18n.tr("Inkstone")
-            UbuntuShape {
-                backgroundColor: UbuntuColors.inkstone
+            LomiriShape {
+                backgroundColor: LomiriColors.inkstone
             }
         }
         TemplateRow {
             title: i18n.tr("Jet")
-            UbuntuShape {
-                backgroundColor: UbuntuColors.jet
+            LomiriShape {
+                backgroundColor: LomiriColors.jet
             }
         }
         TemplateRow {
             title: i18n.tr("Red")
-            UbuntuShape {
-                backgroundColor: UbuntuColors.red
+            LomiriShape {
+                backgroundColor: LomiriColors.red
             }
         }
         TemplateRow {
             title: i18n.tr("Green")
-            UbuntuShape {
-                backgroundColor: UbuntuColors.green
+            LomiriShape {
+                backgroundColor: LomiriColors.green
             }
         }
         TemplateRow {
             title: i18n.tr("Blue")
-            UbuntuShape {
-                backgroundColor: UbuntuColors.blue
+            LomiriShape {
+                backgroundColor: LomiriColors.blue
             }
         }
         TemplateRow {
             title: i18n.tr("Purple")
-            UbuntuShape {
-                backgroundColor: UbuntuColors.purple
+            LomiriShape {
+                backgroundColor: LomiriColors.purple
             }
         }
     }

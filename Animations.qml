@@ -1,5 +1,7 @@
 /*
- * Copyright 2013 Canonical Ltd.
+ * Copyright 2015 Canonical Ltd.
+ *
+ * Copyright 2023 Ivo Xavier
  *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
@@ -14,15 +16,15 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import QtQuick 2.0
-import Ubuntu.Components 1.3
+import QtQuick 2.9
+import Lomiri.Components 1.3
 
 Template {
     objectName: "animationsTemplate"
 
     TemplateSection {
         title: i18n.tr("NumberAnimation")
-        className: "UbuntuNumberAnimation"
+        className: "LomiriNumberAnimation"
 
         TemplateRow {
             title: i18n.tr("Standard")
@@ -40,11 +42,11 @@ Template {
                         PauseAnimation {
                             duration: 1000
                         }
-                        UbuntuNumberAnimation {
+                        LomiriNumberAnimation {
                             from: units.gu(6)
                             to: units.gu(12)
                         }
-                        UbuntuNumberAnimation {
+                        LomiriNumberAnimation {
                             from: units.gu(12)
                             to: units.gu(6)
                         }
@@ -56,7 +58,7 @@ Template {
 
     TemplateSection {
         title: i18n.tr("Standard Durations")
-        className: "UbuntuAnimation"
+        className: "LomiriAnimation"
 
         TemplateRow {
             title: i18n.tr("Snap")
@@ -69,25 +71,25 @@ Template {
 
                     SequentialAnimation on color {
                         PauseAnimation {
-                            duration: index * UbuntuAnimation.SnapDuration
+                            duration: index * LomiriAnimation.SnapDuration
                         }
                         SequentialAnimation {
                             loops: Animation.Infinite
                             ColorAnimation {
                                 from: "#dd4814"
                                 to: "#ddcc14"
-                                duration: UbuntuAnimation.SnapDuration
+                                duration: LomiriAnimation.SnapDuration
                             }
                             PauseAnimation {
-                                duration: repeaterSnap.count * UbuntuAnimation.SnapDuration
+                                duration: repeaterSnap.count * LomiriAnimation.SnapDuration
                             }
                             ColorAnimation {
                                 from: "#ddcc14"
                                 to: "#dd4814"
-                                duration: UbuntuAnimation.SnapDuration
+                                duration: LomiriAnimation.SnapDuration
                             }
                             PauseAnimation {
-                                duration: repeaterSnap.count * UbuntuAnimation.SnapDuration
+                                duration: repeaterSnap.count * LomiriAnimation.SnapDuration
                             }
                         }
                     }
@@ -105,25 +107,25 @@ Template {
 
                     SequentialAnimation on color {
                         PauseAnimation {
-                            duration: index * UbuntuAnimation.FastDuration
+                            duration: index * LomiriAnimation.FastDuration
                         }
                         SequentialAnimation {
                             loops: Animation.Infinite
                             ColorAnimation {
                                 from: "#dd4814"
                                 to: "#ddcc14"
-                                duration: UbuntuAnimation.SnapDuration
+                                duration: LomiriAnimation.SnapDuration
                             }
                             PauseAnimation {
-                                duration: repeaterFast.count * UbuntuAnimation.FastDuration
+                                duration: repeaterFast.count * LomiriAnimation.FastDuration
                             }
                             ColorAnimation {
                                 from: "#ddcc14"
                                 to: "#dd4814"
-                                duration: UbuntuAnimation.SnapDuration
+                                duration: LomiriAnimation.SnapDuration
                             }
                             PauseAnimation {
-                                duration: repeaterFast.count * UbuntuAnimation.FastDuration
+                                duration: repeaterFast.count * LomiriAnimation.FastDuration
                             }
                         }
                     }
@@ -141,10 +143,10 @@ Template {
                     PauseAnimation {
                         duration: 1000
                     }
-                    UbuntuNumberAnimation {
+                    LomiriNumberAnimation {
                         from: 0
                         to: units.gu(12)
-                        duration: UbuntuAnimation.SlowDuration
+                        duration: LomiriAnimation.SlowDuration
                     }
                     PauseAnimation {
                         duration: 300
@@ -170,10 +172,10 @@ Template {
                         PauseAnimation {
                             duration: 1000
                         }
-                        UbuntuNumberAnimation {
+                        LomiriNumberAnimation {
                             from: 0
                             to: units.gu(20)
-                            duration: UbuntuAnimation.SleepyDuration
+                            duration: LomiriAnimation.SleepyDuration
                         }
                         PauseAnimation {
                             duration: 300

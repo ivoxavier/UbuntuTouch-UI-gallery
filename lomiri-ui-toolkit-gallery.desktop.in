@@ -1,6 +1,6 @@
 [Desktop Entry]
-Name=Ubuntu UI Toolkit Gallery
-Exec=qmlscene %U ubuntu-ui-toolkit-gallery.qml
+Name=Lomiri UI Toolkit Gallery
+Exec=qmlscene %U lomiri-ui-toolkit-gallery.qml
 Terminal=false
 Type=Application
 X-Ubuntu-Touch=true
