@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0.0)
-project(ubuntu-ui-toolkit-gallery C CXX)
+project(lomiri-ui-toolkit-gallery C CXX)
 
 set(CMAKE_MODULE_PATH "${CMAKE_CURRENT_SOURCE_DIR}/cmake")
 
@@ -20,8 +20,8 @@ execute_process(
 set(QT_IMPORTS_DIR "lib/${ARCH_TRIPLET}")
 
 
-set(PROJECT_NAME "ubuntu-ui-toolkit-gallery")
-set(FULL_PROJECT_NAME "com.ubports.ubuntu-ui-toolkit-gallery")
+set(PROJECT_NAME "lomiri-ui-toolkit-gallery")
+set(FULL_PROJECT_NAME "com.ubports.lomiri-ui-toolkit-gallery")
 set(CMAKE_INSTALL_PREFIX /)
 set(DATA_DIR /)
 set(DESKTOP_FILE_NAME ${PROJECT_NAME}.desktop)

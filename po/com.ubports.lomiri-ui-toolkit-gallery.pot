@@ -1,0 +1,643 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.ubports.lomiri-ui-toolkit-gallery package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: com.ubports.lomiri-ui-toolkit-gallery\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-01-24 15:02+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../About.qml:36
+msgid "About..."
+msgstr ""
+
+#: ../ActionBars.qml:70
+msgid "Short list"
+msgstr ""
+
+#: ../ActionBars.qml:81
+msgid "Number of slots"
+msgstr ""
+
+#: ../ActionBars.qml:94
+msgid "Long list"
+msgstr ""
+
+#: ../ActionBars.qml:104 ../Buttons.qml:93 ../Sections.qml:72
+#: ../Sections.qml:94 ../TextInputs.qml:92 ../Toggles.qml:47 ../Toggles.qml:128
+#: ../Toolbars.qml:199 ../Toolbars.qml:222
+msgid "Disabled"
+msgstr ""
+
+#: ../Animations.qml:26
+msgid "NumberAnimation"
+msgstr ""
+
+#: ../Animations.qml:30 ../Buttons.qml:30 ../ListItems.qml:27
+#: ../ProgressBars.qml:31 ../ProgressBars.qml:61 ../ProgressBars.qml:96
+#: ../Sheet.qml:41 ../Sheet.qml:74 ../Sliders.qml:30 ../TextInputs.qml:48
+msgid "Standard"
+msgstr ""
+
+#: ../Animations.qml:60
+msgid "Standard Durations"
+msgstr ""
+
+#: ../Animations.qml:64
+msgid "Snap"
+msgstr ""
+
+#: ../Animations.qml:100
+msgid "Fast"
+msgstr ""
+
+#: ../Animations.qml:136
+msgid "Slow"
+msgstr ""
+
+#: ../Animations.qml:161
+msgid "Sleepy"
+msgstr ""
+
+#: ../BottomEdgePage.qml:25
+msgid "Bottom Edge"
+msgstr ""
+
+#: ../BottomEdgePage.qml:36
+msgid "On clicked"
+msgstr ""
+
+#: ../BottomEdgePage.qml:41
+msgid "push content into the column"
+msgstr ""
+
+#: ../BottomEdgePage.qml:57
+msgid "Content"
+msgstr ""
+
+#: ../BottomEdgePage.qml:62
+msgid "preload content"
+msgstr ""
+
+#: ../BottomEdgePage.qml:74
+msgid "Top"
+msgstr ""
+
+#: ../BottomEdgePage.qml:85
+msgid "Regions"
+msgstr ""
+
+#: ../BottomEdgePage.qml:97
+msgid "Region #%1"
+msgstr ""
+
+#: ../BottomEdgePage.qml:158
+msgid "CustomRegion #1"
+msgstr ""
+
+#: ../BottomEdgePage.qml:172
+msgid "CustomRegion #2"
+msgstr ""
+
+#: ../BottomEdgePage.qml:205
+msgid "Within region '%1', status: %2"
+msgstr ""
+
+#: ../BottomEdgePage.qml:206
+msgid "Not in any active region, status: %1"
+msgstr ""
+
+#: ../Buttons.qml:34 ../Buttons.qml:43 ../Buttons.qml:79 ../Buttons.qml:87
+#: ../Buttons.qml:97
+msgid "Call"
+msgstr ""
+
+#: ../Buttons.qml:39
+msgid "Stroke"
+msgstr ""
+
+#: ../Buttons.qml:49 ../Icons.qml:56
+msgid "Color"
+msgstr ""
+
+#: ../Buttons.qml:55
+msgid "C&all %1"
+msgstr ""
+
+#: ../Buttons.qml:65 ../Buttons.qml:123 ../ListItems.qml:45
+msgid "Icon"
+msgstr ""
+
+#: ../Buttons.qml:74 ../Buttons.qml:138
+msgid "Icon+Text"
+msgstr ""
+
+#: ../Buttons.qml:107 ../OptionSelectors.qml:43
+msgid "Collapsed"
+msgstr ""
+
+#: ../Buttons.qml:153 ../ListItems.qml:122 ../OptionSelectors.qml:49
+msgid "Expanded"
+msgstr ""
+
+#: ../Colors.qml:154
+msgid "Orange"
+msgstr ""
+
+#: ../Colors.qml:160
+msgid "Porcelain"
+msgstr ""
+
+#: ../Colors.qml:166
+msgid "Silk"
+msgstr ""
+
+#: ../Colors.qml:172
+msgid "Ash"
+msgstr ""
+
+#: ../Colors.qml:178
+msgid "Graphite"
+msgstr ""
+
+#: ../Colors.qml:184
+msgid "Slate"
+msgstr ""
+
+#: ../Colors.qml:190
+msgid "Inkstone"
+msgstr ""
+
+#: ../Colors.qml:196
+msgid "Jet"
+msgstr ""
+
+#: ../Colors.qml:202
+msgid "Red"
+msgstr ""
+
+#: ../Colors.qml:208
+msgid "Green"
+msgstr ""
+
+#: ../Colors.qml:214
+msgid "Blue"
+msgstr ""
+
+#: ../Colors.qml:220
+msgid "Purple"
+msgstr ""
+
+#: ../Dialog.qml:31
+msgid "Dialog"
+msgstr ""
+
+#: ../Dialog.qml:34 ../Popover.qml:44 ../Sheet.qml:44 ../Sheet.qml:77
+msgid "Open"
+msgstr ""
+
+#: ../Icons.qml:31
+msgid "Scaling"
+msgstr ""
+
+#: ../Icons.qml:81
+msgid "Theme"
+msgstr ""
+
+#: ../ListItemLayouts.qml:211 ../NewListItems.qml:81
+msgid "Leading and trailing actions"
+msgstr ""
+
+#: ../ListItems.qml:30 ../ListItems.qml:38 ../ListItems.qml:48
+#: ../ListItems.qml:62 ../ListItems.qml:68 ../ListItems.qml:78
+#: ../ListItems.qml:87 ../ListItems.qml:96 ../ListItems.qml:162
+#: ../ListItems.qml:175 ../ListItems.qml:195
+msgid "Label"
+msgstr ""
+
+#: ../ListItems.qml:35
+msgid "Subtitled"
+msgstr ""
+
+#: ../ListItems.qml:39
+msgid "Secondary label"
+msgstr ""
+
+#: ../ListItems.qml:54
+msgid "ThinDivider"
+msgstr ""
+
+#: ../ListItems.qml:75
+msgid "Progression"
+msgstr ""
+
+#: ../ListItems.qml:84
+msgid "Single value"
+msgstr ""
+
+#: ../ListItems.qml:88
+msgid "Value"
+msgstr ""
+
+#: ../ListItems.qml:93
+msgid "Multi value"
+msgstr ""
+
+#: ../ListItems.qml:97 ../ListItems.qml:115 ../ListItems.qml:124
+#: ../ListItems.qml:134 ../ListItems.qml:163 ../ListItems.qml:178
+#: ../OptionSelectors.qml:35 ../OptionSelectors.qml:86
+#: ../OptionSelectors.qml:101
+msgid "Value 1"
+msgstr ""
+
+#: ../ListItems.qml:98 ../ListItems.qml:116 ../ListItems.qml:125
+#: ../ListItems.qml:135 ../ListItems.qml:164 ../ListItems.qml:179
+#: ../OptionSelectors.qml:87 ../OptionSelectors.qml:102
+msgid "Value 2"
+msgstr ""
+
+#: ../ListItems.qml:99 ../ListItems.qml:117 ../ListItems.qml:126
+#: ../ListItems.qml:136 ../ListItems.qml:165 ../ListItems.qml:180
+#: ../OptionSelectors.qml:88 ../OptionSelectors.qml:103
+msgid "Value 3"
+msgstr ""
+
+#: ../ListItems.qml:100 ../ListItems.qml:118 ../ListItems.qml:127
+#: ../ListItems.qml:137 ../ListItems.qml:166 ../ListItems.qml:181
+#: ../OptionSelectors.qml:89 ../OptionSelectors.qml:104
+msgid "Value 4"
+msgstr ""
+
+#: ../ListItems.qml:105
+msgid "Item selector"
+msgstr ""
+
+#: ../ListItems.qml:114 ../TextInputs.qml:119
+msgid "Expanding"
+msgstr ""
+
+#: ../ListItems.qml:131 ../OptionSelectors.qml:56
+msgid "Multiple Selection"
+msgstr ""
+
+#: ../ListItems.qml:141 ../OptionSelectors.qml:64
+msgid "Custom Model"
+msgstr ""
+
+#: ../ListItems.qml:167 ../ListItems.qml:182 ../OptionSelectors.qml:90
+#: ../OptionSelectors.qml:105
+msgid "Value 5"
+msgstr ""
+
+#: ../ListItems.qml:168 ../ListItems.qml:183 ../OptionSelectors.qml:91
+#: ../OptionSelectors.qml:106
+msgid "Value 6"
+msgstr ""
+
+#: ../ListItems.qml:169 ../ListItems.qml:184 ../OptionSelectors.qml:92
+#: ../OptionSelectors.qml:107
+msgid "Value 7"
+msgstr ""
+
+#: ../ListItems.qml:170 ../ListItems.qml:185 ../OptionSelectors.qml:93
+#: ../OptionSelectors.qml:108
+msgid "Value 8"
+msgstr ""
+
+#: ../ListItems.qml:192
+msgid "Control"
+msgstr ""
+
+#: ../ListItems.qml:204
+msgid "Removable"
+msgstr ""
+
+#: ../ListItems.qml:207
+msgid "Slide to remove"
+msgstr ""
+
+#: ../ListItems.qml:217
+msgid "Reset"
+msgstr ""
+
+#: ../ListItems.qml:228
+msgid "Grouped list"
+msgstr ""
+
+#: ../ListItems.qml:263
+msgid "LomiriListView"
+msgstr ""
+
+#: ../ListItems.qml:323
+msgid "ExpandablesColumn"
+msgstr ""
+
+#: ../ListItems.qml:366
+msgid "Expandable"
+msgstr ""
+
+#: ../LomiriShape.qml:30
+msgid "Aspect"
+msgstr ""
+
+#: ../LomiriShape.qml:75
+msgid "Radius"
+msgstr ""
+
+#: ../LomiriShape.qml:117
+msgid "Image"
+msgstr ""
+
+#: ../LomiriShape.qml:136
+msgid "Gradient"
+msgstr ""
+
+#: ../MainPage.qml:33
+msgid "Right to Left"
+msgstr ""
+
+#: ../MainPage.qml:39
+msgid "Left to Right"
+msgstr ""
+
+#: ../MainPage.qml:45
+msgid "Use dark theme"
+msgstr ""
+
+#: ../MainPage.qml:51
+msgid "Use light theme"
+msgstr ""
+
+#: ../MainPage.qml:58
+msgid "About"
+msgstr ""
+
+#: ../MainPage.qml:63
+msgid "Deactivate mouse"
+msgstr ""
+
+#: ../MainPage.qml:69
+msgid "Activate mouse"
+msgstr ""
+
+#: ../MainPage.qml:75
+msgid "Detach keyboard"
+msgstr ""
+
+#: ../MainPage.qml:81
+msgid "Attach keyboard"
+msgstr ""
+
+#: ../NewListItems.qml:41
+msgid "Colored"
+msgstr ""
+
+#: ../NewListItems.qml:44
+msgid "Highlight color"
+msgstr ""
+
+#: ../NewListItems.qml:73
+msgid "Leading actions"
+msgstr ""
+
+#: ../NewListItems.qml:77
+msgid "Trailing actions"
+msgstr ""
+
+#: ../NewListItems.qml:86
+msgid "Custom action delegates"
+msgstr ""
+
+#: ../NewListItems.qml:113
+msgid "Edit"
+msgstr ""
+
+#: ../NewListItems.qml:116
+msgid "Move"
+msgstr ""
+
+#: ../NewListItems.qml:165
+msgid "Basic"
+msgstr ""
+
+#: ../NewListItems.qml:165 ../NewListItems.qml:170 ../NewListItems.qml:171
+#: ../NewListItems.qml:215 ../NewListItems.qml:216
+msgid "Colored divider"
+msgstr ""
+
+#: ../NewListItems.qml:165
+msgid "Immutable"
+msgstr ""
+
+#: ../NewListItems.qml:165 ../NewListItems.qml:172 ../NewListItems.qml:217
+msgid "No divider"
+msgstr ""
+
+#: ../OptionSelectors.qml:26
+msgid "Option Selector"
+msgstr ""
+
+#: ../OptionSelectors.qml:36
+msgid "This is the second value"
+msgstr ""
+
+#: ../OptionSelectors.qml:37
+msgid ""
+"Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy "
+"nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat."
+msgstr ""
+
+#: ../OptionSelectors.qml:38
+msgid "Once upon a time there was a story nobody told."
+msgstr ""
+
+#: ../OptionSelectors.qml:85
+msgid "Custom container height"
+msgstr ""
+
+#: ../OptionSelectors.qml:98
+msgid "No initial selection, scrollable."
+msgstr ""
+
+#: ../Pickers.qml:33
+msgid "Linear"
+msgstr ""
+
+#: ../Pickers.qml:65
+msgid "Circular"
+msgstr ""
+
+#: ../Pickers.qml:102 ../ProgressBars.qml:51 ../ProgressBars.qml:61
+msgid "Infinite"
+msgstr ""
+
+#: ../Pickers.qml:139
+msgid "Clock"
+msgstr ""
+
+#: ../Pickers.qml:176
+msgid "Overlay"
+msgstr ""
+
+#: ../Popover.qml:40
+msgid "Flickable"
+msgstr ""
+
+#: ../Popover.qml:76
+msgid "Action #1"
+msgstr ""
+
+#: ../Popover.qml:80
+msgid "Action #2"
+msgstr ""
+
+#: ../Popover.qml:84
+msgid "Action #3"
+msgstr ""
+
+#: ../Popover.qml:88
+msgid "Action #4"
+msgstr ""
+
+#: ../Popover.qml:92
+msgid "Action #5"
+msgstr ""
+
+#: ../ProgressBars.qml:26
+msgid "Progress Bar"
+msgstr ""
+
+#: ../ProgressBars.qml:86
+msgid "to infinite"
+msgstr ""
+
+#: ../ProgressBars.qml:86
+msgid "to standard"
+msgstr ""
+
+#: ../ProgressBars.qml:92
+msgid "Activity Indicator"
+msgstr ""
+
+#: ../ProportionalShape.qml:30
+msgid "Sizes"
+msgstr ""
+
+#: ../Sections.qml:65 ../Sections.qml:86 ../Toolbars.qml:191
+#: ../Toolbars.qml:214
+msgid "Enabled"
+msgstr ""
+
+#: ../Sheet.qml:29
+msgid "The visual style of the Sheet is early work and thus clunky looking."
+msgstr ""
+
+#: ../Sheet.qml:54 ../Sheet.qml:87
+msgid "Title"
+msgstr ""
+
+#: ../Sliders.qml:38 ../Sliders.qml:53 ../Sliders.qml:70 ../Sliders.qml:95
+msgid "Actual value: %1"
+msgstr ""
+
+#: ../Sliders.qml:44
+msgid "Live Update"
+msgstr ""
+
+#: ../Sliders.qml:59
+msgid "Range"
+msgstr ""
+
+#: ../Sliders.qml:76
+msgid "Labels"
+msgstr ""
+
+#: ../Sliders.qml:87
+msgid "Small"
+msgstr ""
+
+#: ../Sliders.qml:89
+msgid "Medium"
+msgstr ""
+
+#: ../Sliders.qml:91
+msgid "Large"
+msgstr ""
+
+#: ../SwipeAreaPage.qml:31 ../SwipeAreaPage.qml:47
+msgid "Upwards"
+msgstr ""
+
+#: ../SwipeAreaPage.qml:59 ../SwipeAreaPage.qml:75
+msgid "Downwards"
+msgstr ""
+
+#: ../SwipeAreaPage.qml:87 ../SwipeAreaPage.qml:104
+msgid "Rightwards"
+msgstr ""
+
+#: ../SwipeAreaPage.qml:117 ../SwipeAreaPage.qml:134
+msgid "Leftwards"
+msgstr ""
+
+#: ../TextInputs.qml:52
+msgid "Type me in..."
+msgstr ""
+
+#: ../TextInputs.qml:58
+msgid "Password"
+msgstr ""
+
+#: ../TextInputs.qml:69
+msgid "Numbers"
+msgstr ""
+
+#: ../TextInputs.qml:80
+msgid "Read-only"
+msgstr ""
+
+#: ../TextInputs.qml:84
+msgid "Nobody type here"
+msgstr ""
+
+#: ../TextInputs.qml:96
+msgid "No interaction allowed"
+msgstr ""
+
+#: ../TextInputs.qml:109
+msgid "Default"
+msgstr ""
+
+#: ../TextInputs.qml:131
+msgid "Rich Text"
+msgstr ""
+
+#: ../Toggles.qml:30 ../Toggles.qml:111
+msgid "Unchecked"
+msgstr ""
+
+#: ../Toggles.qml:38 ../Toggles.qml:119
+msgid "Checked"
+msgstr ""
+
+#: ../Toggles.qml:62
+msgid "Checkbox with label"
+msgstr ""
+
+#: ../Toggles.qml:72 ../Toggles.qml:83
+msgid "Disabled checkbox with label"
+msgstr ""
+
+#: ../Toggles.qml:94
+msgid "Checkbox with multiline label"
+msgstr ""

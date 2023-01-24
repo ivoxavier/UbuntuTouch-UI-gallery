@@ -1,6 +1,8 @@
 /*
  * Copyright 2013 Canonical Ltd.
  *
+ * Copyright 2023 Ivo Xavier
+ *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation; version 3.
@@ -14,8 +16,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import QtQuick 2.0
-import Ubuntu.Components 1.3
+import QtQuick 2.9
+import Lomiri.Components 1.3
 
 Item {
     id: templateFlow

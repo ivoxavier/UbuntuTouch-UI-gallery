@@ -1,6 +1,8 @@
 /*
  * Copyright 2015 Canonical Ltd.
  *
+ * Copyright 2023 Ivo Xavier
+ *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation; version 3.
@@ -14,8 +16,8 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import QtQuick 2.4
-import Ubuntu.Components 1.3
+import QtQuick 2.9
+import Lomiri.Components 1.3
 
 Template {
     objectName: "listItemLayoutTemplate"
@@ -33,7 +35,7 @@ Template {
             ListItemLayout {
                 id: addressbookLayout
 
-                title.color: UbuntuColors.lightAubergine
+                title.color: LomiriColors.lightAubergine
                 title.text: "Address book list item: Name goes here"
 
                 Rectangle {
@@ -52,7 +54,7 @@ Template {
             ListItemLayout {
                 id: addressbookDetailsLayout
 
-                title.color: UbuntuColors.lightAubergine
+                title.color: LomiriColors.lightAubergine
                 title.text: "+12 3456789012"
                 subtitle.text: "Mobile"
 
@@ -227,7 +229,7 @@ Template {
                 id: dialerHistoryLayout
 
                 title.text: "+12 3456789012 (3)"
-                title.color: UbuntuColors.lightAubergine
+                title.color: LomiriColors.lightAubergine
                 subtitle.text: "Mobile"
 
                 Rectangle {

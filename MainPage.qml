@@ -1,6 +1,8 @@
 /*
  * Copyright 2015 Canonical Ltd.
  *
+ * Copyright 2023 Ivo Xavier
+ *
  * This program is free software; you can redistribute it and/or modify
  * it under the terms of the GNU Lesser General Public License as published by
  * the Free Software Foundation; version 3.
@@ -14,12 +16,12 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-import QtQuick 2.4
-import Ubuntu.Components 1.3
+import QtQuick 2.9
+import Lomiri.Components 1.3
 
 Page {
     id: mainPage
-    title: "Ubuntu UI Toolkit"
+    title: "Ubuntu Touch UI Toolkit"
 
     header: PageHeader {
         title: mainPage.title
@@ -30,26 +32,26 @@ Page {
             Action {
                 text: i18n.tr('Right to Left')
                 iconName: 'flash-on'
-                visible: UbuntuApplication.layoutDirection == Qt.LeftToRight
-                onTriggered: UbuntuApplication.layoutDirection = Qt.RightToLeft
+                visible: LomiriApplication.layoutDirection == Qt.LeftToRight
+                onTriggered: LomiriApplication.layoutDirection = Qt.RightToLeft
             },
             Action {
                 text: i18n.tr('Left to Right')
                 iconName: 'flash-off'
-                visible: UbuntuApplication.layoutDirection == Qt.RightToLeft
-                onTriggered: UbuntuApplication.layoutDirection = Qt.LeftToRight
+                visible: LomiriApplication.layoutDirection == Qt.RightToLeft
+                onTriggered: LomiriApplication.layoutDirection = Qt.LeftToRight
             },
             Action {
                 text: i18n.tr('Use dark theme')
                 iconName: 'torch-on'
-                visible: gallery.theme.name == 'Ubuntu.Components.Themes.Ambiance'
-                onTriggered: gallery.theme.name = 'Ubuntu.Components.Themes.SuruDark'
+                visible: gallery.theme.name == 'Lomiri.Components.Themes.Ambiance'
+                onTriggered: gallery.theme.name = 'Lomiri.Components.Themes.SuruDark'
             },
             Action {
                 text: i18n.tr('Use light theme')
                 iconName: 'torch-off'
-                visible: gallery.theme.name == 'Ubuntu.Components.Themes.SuruDark'
-                onTriggered: gallery.theme.name = 'Ubuntu.Components.Themes.Ambiance'
+                visible: gallery.theme.name == 'Lomiri.Components.Themes.SuruDark'
+                onTriggered: gallery.theme.name = 'Lomiri.Components.Themes.Ambiance'
             },
             Action {
                 id: aboutAction
@@ -93,7 +95,7 @@ Page {
         }
     }
 
-    UbuntuListView {
+    LomiriListView {
         id: widgetList
         objectName: "widgetList"
         anchors {
